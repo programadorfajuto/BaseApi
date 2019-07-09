@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>BaseApi.Dominio</AssemblyName>
+    <RootNamespace>BaseApi.Dominio</RootNamespace>
+    <Authors>Matheus Stag</Authors>
+    <Company>Programador Fajuto</Company>
+  </PropertyGroup>
+
+</Project>
