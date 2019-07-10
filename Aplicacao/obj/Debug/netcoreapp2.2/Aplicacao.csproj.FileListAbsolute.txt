@@ -1,0 +1,14 @@
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Aplicacao.deps.json
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Aplicacao.dll
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Aplicacao.pdb
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Dominio.dll
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Infra.dll
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Dominio.pdb
+C:\Projetos\Pessoais\BaseApi\Aplicacao\bin\Debug\netcoreapp2.2\BaseApi.Infra.pdb
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\Aplicacao.csprojAssemblyReference.cache
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\Aplicacao.AssemblyInfoInputs.cache
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\Aplicacao.AssemblyInfo.cs
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\Aplicacao.csproj.CopyComplete
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\BaseApi.Aplicacao.dll
+C:\Projetos\Pessoais\BaseApi\Aplicacao\obj\Debug\netcoreapp2.2\BaseApi.Aplicacao.pdb

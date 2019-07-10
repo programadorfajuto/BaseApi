@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BaseApi.Aplicacao;
+using BaseApi.Aplicacao.Contratos;
+using BaseApi.Aplicacao.Servicos;
+using BaseApi.Infra.Contratos;
+using BaseApi.Infra.Servicos.ServicoDePersistencia;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace BaseApi.Api
 {
@@ -17,14 +20,25 @@ namespace BaseApi.Api
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            this.Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddOptions();
+            services.Configure<VariaveisDeAmbiente>(this.Configuration);
+            services.AddDbContext<ContextoEF>(options => { options.UseNpgsql(this.Configuration.GetValue<string>("ConnectionString")); });
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            // servicos da camada de infra
+            services.AddScoped(typeof(IServicoDePersistencia), typeof(UnidadeDeTrabalhoEF));
+
+            // servicos da camada de aplicacao
+            services.AddScoped(typeof(IServicoDeUsuario), typeof(ServicoDeUsuario));
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

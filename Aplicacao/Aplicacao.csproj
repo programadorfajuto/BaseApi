@@ -8,4 +8,9 @@
     <Company>Programador Fajuto</Company>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj" />
+    <ProjectReference Include="..\Infra\Infra.csproj" />
+  </ItemGroup>
+
 </Project>

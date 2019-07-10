@@ -1,0 +1,9 @@
+C:\Projetos\Pessoais\BaseApi\Dominio\bin\Debug\netcoreapp2.2\BaseApi.Dominio.deps.json
+C:\Projetos\Pessoais\BaseApi\Dominio\bin\Debug\netcoreapp2.2\BaseApi.Dominio.dll
+C:\Projetos\Pessoais\BaseApi\Dominio\bin\Debug\netcoreapp2.2\BaseApi.Dominio.pdb
+C:\Projetos\Pessoais\BaseApi\Dominio\obj\Debug\netcoreapp2.2\Dominio.csprojAssemblyReference.cache
+C:\Projetos\Pessoais\BaseApi\Dominio\obj\Debug\netcoreapp2.2\Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\Pessoais\BaseApi\Dominio\obj\Debug\netcoreapp2.2\Dominio.AssemblyInfoInputs.cache
+C:\Projetos\Pessoais\BaseApi\Dominio\obj\Debug\netcoreapp2.2\Dominio.AssemblyInfo.cs
+C:\Projetos\Pessoais\BaseApi\Dominio\obj\Debug\netcoreapp2.2\BaseApi.Dominio.dll
+C:\Projetos\Pessoais\BaseApi\Dominio\obj\Debug\netcoreapp2.2\BaseApi.Dominio.pdb
